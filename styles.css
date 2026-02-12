@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.header-top{
+    background-color: #1f2937;
+    color: #f9fafb;
+}
+
+.nav-content {
+    display: flex;
+}
+
+.nav-logo {
+
+}
+.nav-list { 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-item {
+    display: ;
+}
