@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unsure</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
 </head>
 
@@ -27,13 +28,15 @@
             </ul>
         </nav>
         <div>
-            <div>
-                <h2>This Website is awesome</h2>
+            <div class="header-content">
+                <h2 class="main-text">This Website is awesome</h2>
                 <p>This website has some subtext that goes here under the main title. it's a smaller font and the color
                     is lower contrast</p>
-                <button>Sign up</button>
+                <button class="button-default button-main">Sign up</button>
             </div>
-            <img src="" alt="this is a placeholder for an image">
+            <div class="image-container">
+                <img id="image-banner" src="./assets/images/photograph-kristian-kulijanov.jpg" alt="this is a placeholder for an image">
+            </div>
         </div>
     </header>
     <main>
@@ -68,23 +71,24 @@
     <aside>
         <blockquote cite="www">
             <p>
-                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
-                <footer>Thor, God of Thunder</footer>
+                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling space, or maybe
+                people will actually read it. Who knows? All I know is that it looks nice.
+            <footer>Thor, God of Thunder</footer>
             </p>
         </blockquote>
     </aside>
 
     <section>
-        <div>
+        <div class="section-container">
             <h2>Call to action! it's time!</h2>
             <p>Sign up for our product by clicking that button right over there!</p>
-            <button>Sign up</button>
+            <button class="button-default button-section">Sign up</button>
         </div>
     </section>
 
-    <footer>
-        <div>
-            <p>Copyright</p>
+    <footer class="footer-bottom">
+        <div class="footer-container">
+            <p class="footer-text">Copyright</p>
         </div>
     </footer>
 </body>
