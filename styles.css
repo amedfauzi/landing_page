@@ -53,8 +53,9 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    margin: 0;
-    padding: 0 32rem;
+    margin: 0 auto;
+    padding: 0;
+    width: 43%;
 }
 
 .aside-quote {
