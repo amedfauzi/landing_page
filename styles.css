@@ -3,6 +3,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.button-default {
+    width: 6em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882f6;
+    text-decoration: none;
+    color: #f9faf8;
+}
+
 .header-top{
     background-color: #1f2937;
     color: #f9faf8;
@@ -12,9 +22,6 @@ body {
     display: flex;
 }
 
-.nav-logo {
-
-}
 .nav-list { 
     display: flex;
     width: 100%;
@@ -22,27 +29,42 @@ body {
     list-style: none;
 }
 
-.nav-item {
-    display: ;
+/* hero */
+.hero {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    margin: 0 auto;
+    padding: 6em 0;
+    column-gap: 3em;
 }
 
-#image-banner {
-    width: 10em;
-}
-
-.main-text {
+.hero-header-content h1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    margin: 0;
 }
 
-.button-default {
-    width: 7rem;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 5px;
-    background-color: #3882f6;
-    color: #f9faf8;
+.hero-header-content p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.button-hero {
+    font-weight: 900;
+    display: block;
+    width: 6em;
+    text-align: center;
+    border-radius: 7px;
+}
+
+#hero-image-banner {
+    width: 32em;
+    height: 15em;
+    object-fit: cover;
 }
 
 /* main */
