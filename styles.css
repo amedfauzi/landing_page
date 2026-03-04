@@ -43,13 +43,18 @@ body {
     color: #e5e7eb;
     text-decoration: none;
     font-size: 18px;
+    font-weight: 400;
 }
 
 .nav-logo {
+    display: block;
+    margin: 0 auto 0 0;
+}
+
+.nav-logo a {
     font-size: 24px;
     font-weight: 900;
     color: #f9faf8;
-    margin: 0 auto 0 0;
 }
 
 /* hero */
@@ -74,6 +79,7 @@ body {
     color: #e5e7eb;
     margin: 0;
     margin-bottom: 1em;
+    font-weight: 300;
 }
 
 .button-hero {
@@ -188,6 +194,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center ;
+    width: 50%;
 }
 
 .section-header {
@@ -237,4 +244,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.footer-text {
+    color: #f9faf8;
+    font-size: 18px;
+    margin: 0;
 }
