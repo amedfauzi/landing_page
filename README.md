@@ -44,7 +44,7 @@ The focus of this project was to:
 ---
 
 ## 🚀 Live Preview
-www.
+https://amedfauzi.github.io/landing_page/
 
 ---
 
